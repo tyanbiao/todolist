@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width:50rem;
+    margin:2rem auto auto auto;
+
+}
+.head input{
+    height:3rem;
+    width:23rem;
+    border:0.2rem solid #00aced;
+    font-size: 2rem;
+}
+#add,#search{
+    width:6rem;
+    height:3.5rem;
+    font-size: 2rem;
+    border-radius: 5%;
+    margin-right:1rem;
+    background-color: #00aced;
+    border-color: #00aced;
+  }
+.message{
+    font-size: 2rem;
+
+}
+#ul{
+
+    //
+}
+#ul li{
+    width:36.5rem;
+    list-style: none;
+    font-family: "Microsoft YaHei UI";
+    font-size: 2.5rem;
+   margin-top:1rem;
+    background-color: #eeeeee;
+}
+#ul li img{
+    margin-left: 2rem;
+    margin-bottom:0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+li button:nth-child(2){
+margin-left:3rem;
+}
+
+li span{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+li input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: #fff url('../images/unchecked.png');
+    height: 2rem;   /*高度*/
+    vertical-align: middle;
+    width: 2rem;
+    margin-right:1rem;
+}
+li input[type="checkbox"]:checked{
+    background: #fff url('../images/checked.png');
+}
+
+li input[type="text"] {
+    font-size: 2rem;
+    height: 2.5rem;   /*高度*/
+    margin-left:1rem;
+    border:none;
+}
