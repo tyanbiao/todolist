@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>todolisit_v3.0</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/todolist_v3.0.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="hide" id="mask"></div>
+
+    <div class="main">
+        <span class="hide" id="icon_x"><i class="far fa-times-circle"></i></span>
+        <h3 class="title">待办事项</h3>
+        <div class="header">
+            <input id="text_input" type="text">
+            <i class="fab fa-telegram-plane" id="add_icon"></i>
+            <i class="fas fa-search" id="search_icon"></i>
+        </div>
+        <ul id="list">
+            <li>
+                <i class="far fa-calendar-alt">2018/4/5 17:36:15</i>
+                <div class="item">
+                    <i class="far fa-check-square complete_icon"></i><span>今天下午两点要去教学楼上课！</span><i class="far fa-edit edit_icon"></i>
+                    <i class="far fa-trash-alt trash_icon"></i>
+                </div>
+            </li>
+        </ul>
+        <li class="hide" id="nothing">Nothing!</li>
+    </div>
+    <script src="./js/todolist_v3.0.js"></script>
+</body>
+</html>
