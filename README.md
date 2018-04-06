@@ -6,4 +6,4 @@
 - [演示](https://tyanbiao.github.io/todolist/v3)
 
 ## Screenshot
-![screenshot](http://blog-1252366546.file.myqcloud.com/picture/TODOLIST.png)
+![screenshot](http://blog-1252366546.file.myqcloud.com/picture/todolist.png)
